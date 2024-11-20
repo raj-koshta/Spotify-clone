@@ -24,7 +24,7 @@ const Display = () => {
     <div ref={displayRef} className='w-[100%] m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0'>
         <Routes>
             <Route path='/Spotify-clone/' element={<DisplayHome />} />
-            <Route path='/Spotify-clone/album/:id' element={<DisplayAlbum />} />
+            <Route path='/album/:id' element={<DisplayAlbum />} />
         </Routes>
     </div>
   )
